@@ -1,0 +1,11 @@
+const myArray = [1,2,3,1,4,5,'a','b','c','a'];
+
+myArray
+(10) [1, 2, 3, 1, 4, 5, "a", "b", "c", "a"]
+
+console.log([...new Set(myArray)]);
+
+const newMyArray = [...new Set(myArray)];
+
+newMyArray
+(8) [1, 2, 3, 4, 5, "a", "b", "c"]
